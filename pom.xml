@@ -38,7 +38,7 @@
       <artifactId>TConstruct</artifactId>
       <version>1.10.2-2.6.3.500</version>
       <scope>compile</scope>
-    </dependency
+    </dependency>
     <dependency>
       <groupId>net</groupId>
       <artifactId>minecraftforge</artifactId>
