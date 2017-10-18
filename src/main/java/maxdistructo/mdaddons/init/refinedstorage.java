@@ -21,7 +21,10 @@ quartzRefinedIron.addTrait(TraitMagnetic.traitmagnetic(2));
 quartzRefinedIron.addItem(refinedIron, 1, Material.VALUE_Ingot);
 quartzRefinedIron.setCraftable(true);
 quartzRefinedIron.setRepresentativeItem(refinedIron);
-
+ TinkerRegistry.addMaterialStats(quartzRefinedIron,
+                                    new HeadMaterialStats(230, 7.00f, 4.00f, OBSIDIAN),
+                                    new HandleMaterialStats(1f, 80),
+                                    new ExtraMaterialStats(75));
 
 }
 
